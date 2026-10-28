@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Josephine — Software Developer Portfolio. C#, .NET, mobile apps, and database systems."
+    />
+    <title>Josephine | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <div class="nav-inner container">
+        <a href="#home" class="nav-logo">J.</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="brand-shell fade-in">
+          <div class="brand-mark" aria-label="Josphex logo">
+            <svg viewBox="0 0 1100 500" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="brandBlue" x1="0%" x2="100%" y1="0%" y2="0%">
+                  <stop offset="0%" stop-color="#3cc9ff" />
+                  <stop offset="52%" stop-color="#1ab6ff" />
+                  <stop offset="100%" stop-color="#0b7fff" />
+                </linearGradient>
+                <linearGradient id="brandBlueDark" x1="0%" x2="100%" y1="0%" y2="0%">
+                  <stop offset="0%" stop-color="#12beff" />
+                  <stop offset="100%" stop-color="#0d74ea" />
+                </linearGradient>
+              </defs>
+
+              <path
+                d="M232 30
+                   C175 20 108 30 58 72
+                   C-2 116 -18 205 28 264
+                   C68 315 122 344 189 346
+                   L189 405
+                   C102 405 48 377 16 323
+                   C-18 269 -18 188 28 124
+                   C72 64 141 27 232 30 Z"
+                fill="#f4f7ff"
+              />
+
+              <path
+                d="M300 54H610V156H504V420H406V156H300V54Z"
+                fill="url(#brandBlue)"
+              />
+
+              <path d="M598 54H748L672 152H598V54Z" fill="#f3f8ff" opacity="0.92"/>
+              <path d="M646 150H885V252H772V420H646V150Z" fill="url(#brandBlueDark)"/>
+
+              <path
+                d="M250 284
+                   C380 185 520 167 682 196
+                   C795 218 878 259 956 323"
+                fill="none"
+                stroke="url(#brandBlue)"
+                stroke-width="30"
+                stroke-linecap="round"
+              />
+
+              <path
+                d="M712 236
+                   C778 203 828 195 892 200"
+                fill="none"
+                stroke="#edf9ff"
+                stroke-width="9"
+                stroke-linecap="round"
+                opacity="0.9"
+              />
+
+              <path
+                d="M752 252L828 327L926 210"
+                fill="none"
+                stroke="#f4fbff"
+                stroke-width="11"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div class="brand-wordmark">
+            <div class="brand-name">JOSPHEX</div>
+            <div class="brand-subtitle">TECHNOLOGIES</div>
+            <div class="brand-tagline">
+              <span>INNOVATE</span>
+              <span class="dot">•</span>
+              <span>DEVELOP</span>
+              <span class="dot">•</span>
+              <span>BUILD</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">Developer with a focus on<br><em>real-world impact</em></h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I'm a software developer passionate about creating applications that solve
+                everyday problems. My work spans mobile health platforms, point-of-sale systems,
+                library management, and enterprise database solutions.
+              </p>
+              <p>
+                I enjoy working across the full stack — from designing relational databases
+                and writing backend logic in C# and VB.NET, to building user-friendly
+                interfaces that people actually want to use.
+              </p>
+              <ul class="about-highlights">
+                <li>
+                  <strong>Mobile &amp; Web</strong>
+                  <span>Health apps, adoption platforms, rent payment systems</span>
+                </li>
+                <li>
+                  <strong>Desktop &amp; Enterprise</strong>
+                  <span>POS, library systems, hospital records</span>
+                </li>
+                <li>
+                  <strong>Data &amp; Backend</strong>
+                  <span>SQL, Access, event-driven architecture</span>
+                </li>
+              </ul>
+            </div>
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-number">7+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Languages</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedicated</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="container">
+          <div class="section-header center">
+            <span class="section-label">Skills</span>
+            <h2 class="section-title">Technologies I work with</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon">⚡</div>
+              <h3>C# &amp; .NET</h3>
+              <p>Console apps, desktop applications, and object-oriented design with modern .NET.</p>
+              <div class="skill-tags">
+                <span>.NET 10</span><span>OOP</span><span>WinForms</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">📱</div>
+              <h3>Mobile Development</h3>
+              <p>Cross-platform mobile apps for health, adoption, and utility use cases.</p>
+              <div class="skill-tags">
+                <span>Android</span><span>Agile</span><span>UI/UX</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🗄️</div>
+              <h3>Databases</h3>
+              <p>Relational database design, queries, and data management with SQL and Access.</p>
+              <div class="skill-tags">
+                <span>SQL</span><span>Access</span><span>MySQL</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🔧</div>
+              <h3>VB.NET</h3>
+              <p>Visual Basic applications for business systems and practical coursework projects.</p>
+              <div class="skill-tags">
+                <span>VB.NET</span><span>Visual Studio</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🏗️</div>
+              <h3>System Design</h3>
+              <p>Event-driven architecture, agile methodology, and structured project planning.</p>
+              <div class="skill-tags">
+                <span>Agile</span><span>Event-Driven</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">🌐</div>
+              <h3>Web Fundamentals</h3>
+              <p>HTML, CSS, and JavaScript for building responsive, accessible web interfaces.</p>
+              <div class="skill-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="projects-header">
+            <span class="section-label">Portfolio</span>
+            <h2 class="section-title">Selected <em>projects</em></h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card featured">
+              <div class="project-image" style="--accent: #10b981;">
+                <span class="project-emoji">🏥</span>
+              </div>
+              <div class="project-body">
+                <span class="project-category">Mobile · Health Tech</span>
+                <h3>AfyaLink</h3>
+                <p>Mobile health application connecting patients with healthcare services. Built using agile methodology with full project documentation and sprint planning.</p>
+                <div class="project-tech">
+                  <span>Mobile</span><span>Agile</span><span>Healthcare</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image" style="--accent: #ec4899;">
+                <span class="project-emoji">🐾</span>
+              </div>
+              <div class="project-body">
+                <span class="project-category">Mobile · Social</span>
+                <h3>PawsomeAdoptions</h3>
+                <p>Pet adoption platform connecting animal shelters with potential adopters through an intuitive mobile experience.</p>
+                <div class="project-tech">
+                  <span>Mobile</span><span>Android</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image" style="--accent: #06b6d4;">
+                <span class="project-emoji">🏨</span>
+              </div>
+              <div class="project-body">
+                <span class="project-category">Database · Healthcare</span>
+                <h3>Hospital Health Records</h3>
+                <p>Comprehensive health records management system for storing and retrieving patient data securely.</p>
+                <div class="project-tech">
+                  <span>Access</span><span>SQL</span><span>Healthcare</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image" style="--accent: #84cc16;">
+                <span class="project-emoji">🎓</span>
+              </div>
+              <div class="project-body">
+                <span class="project-category">Web · Education</span>
+                <h3>School Management System</h3>
+                <p>Administrative platform for managing students, classes, grades, and school operations.</p>
+                <div class="project-tech">
+                  <span>Web</span><span>Management</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <span class="section-label">Contact</span>
+              <h2 class="section-title">Let's build<br><em>something together</em></h2>
+              <p>Open to internships, freelance work, and collaboration on meaningful projects.</p>
+              <ul class="contact-links">
+                <li>
+                  <a href="mailto:your.email@example.com">
+                    <span class="contact-icon">✉️</span>
+                    your.email@example.com
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+                    <span class="contact-icon">💻</span>
+                    github.com/yourusername
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+                    <span class="contact-icon">🔗</span>
+                    linkedin.com/in/yourprofile
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              <p class="form-note" id="formNote"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Josephine. Built with HTML, CSS &amp; JavaScript.</p>
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
